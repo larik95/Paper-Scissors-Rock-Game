@@ -1,18 +1,11 @@
 import React from 'react'
+import logo from '../assets/logo.svg'
 
 const Header = ({score}) => {
   return (
     <div className='header'>
      <div className='text'>
-      <span>
-        Rock
-      </span>
-      <span>
-        Paper
-      </span>
-      <span>
-        Scissors
-      </span>
+      <img src={logo} alt="logo" />
      </div>
      <div className='score-box'>
       <span>Score</span>

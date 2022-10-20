@@ -72,6 +72,14 @@
                 color: red;
             }
         }
+        @media screen and (max-width: 800px) {
+           position: absolute;
+           top:23rem;
+           right: 11rem;
+           scale: 1.5;
+        
+          }
+    
     }
 
     &__house{
@@ -114,6 +122,7 @@
                     @include bigShadow($rock-gradient);
                     }
             }
+        
         }
 
         .counter{
@@ -127,5 +136,11 @@
             flex-direction: column;
             justify-content: center;
         }
+     
     }
+    @media screen and (max-width: 800px) {
+        scale: 0.7;
+    
+      }
+
 }

@@ -13,7 +13,9 @@ const Modal = ({toggle}) => {
               <img src={closeIcon} alt='close' srcSet='' />
             </button>
           </div>
+          <div className='rules'>
           <img src={rules} alt='rules' srcSet='' />
+          </div>
         </div>
       </div>,
       document.getElementById("modal")
